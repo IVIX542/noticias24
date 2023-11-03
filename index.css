@@ -1,0 +1,180 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #707070bc;
+    background-image: url(img/pexels-pixabay-87651.jpg);
+    background-blend-mode: multiply ;
+    /* background-image: url(img/pexels-alex-conchillos-3941855.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* color: #fff; */
+    color: aqua;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+/* Estilos para las secciones */
+#anuncios{
+    background-color: blanchedalmond;
+}
+
+#anuncios a{
+    text-decoration: none;
+    color: darkmagenta;
+}
+
+#videos{
+    text-align: center;
+    /* background: linear-gradient(to bottom, red, yellow, red); */
+}
+
+#videos #video1{
+    border-radius: 10px;
+    box-shadow: 10px 10px yellow, -10px 10px red;
+}
+
+#videos #copy{
+    font-size: 12px;
+    color: green;
+}
+
+#espana{
+    columns: 3;
+    column-rule: 2px double gray;
+}
+
+#cultura{
+    columns: 3;
+    column-rule: 2px double gray;
+}
+
+#internacional{
+    columns: 3;
+    column-rule: 2px double gray;
+}
+
+#deportes{
+    columns: 3;
+    column-rule: 2px double gray;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: block;
+}
+
+section h2 {
+    font-size: 24px;
+    margin: 0;
+
+}
+
+.seccion h2{
+    background-color: #ff950089;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Estilos para las noticias */
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+article h3 a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+#columna{
+    float: right;
+    display: block;
+    background-color: beige;
+    border-color: #333;
+    box-shadow: 15px 15px rgba(128, 128, 128, 0.5);
+}
+
+/* Estilos para los enlaces */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Estilos para el formulario de suscripción */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label, form input, form input[type="submit"] {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    clear: both;
+}
